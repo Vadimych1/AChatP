@@ -1,0 +1,80 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f6f8fa; /* Цвет фона */
+    color: #24292e; /* Цвет текста */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24292e; /* Цвет шапки */
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff; /* Белый цвет текста */
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #24292e; /* Цвет кнопок */
+    color: #fff; /* Цвет текста на кнопках */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2f363d; /* Темнее при наведении */
+}
+
+#chat-window {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#chat-messages {
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fff; /* Цвет фона для сообщений */
+    border-radius: 5px;
+}
+
+#message-input {
+    width: 80%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Цвет обводки */
+}
+
+#send-button {
+    padding: 8px 15px;
+    background-color: #28a745; /* Зеленый цвет кнопки отправки */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#send-button:hover {
+    background-color: #218838; /* Темнее зеленый при наведении */
+}
+
+footer {
+    background-color: #24292e; /* Цвет подвала */
+    text-align: center;
+    padding: 10px 0;
+    a: #000000
+}
+
+footer img {
+    vertical-align: middle; /* Выравнивание изображения по центру */
+}
