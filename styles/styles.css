@@ -41,10 +41,10 @@ button:hover {
 }
 
 #chat-messages {
-    max-height: 400px;
+    min-height: 70vh;
     overflow-y: scroll;
     padding: 10px;
-    background-color: #fff; /* Цвет фона для сообщений */
+    background-color: #888; /* Цвет фона для сообщений */
     border-radius: 5px;
 }
 
@@ -52,6 +52,7 @@ button:hover {
     width: 80%;
     padding: 8px;
     margin-right: 10px;
+    margin-top: 15px;
     border: 1px solid #ccc; /* Цвет обводки */
 }
 
@@ -72,9 +73,40 @@ footer {
     background-color: #24292e; /* Цвет подвала */
     text-align: center;
     padding: 10px 0;
-    a: #000000
+    /* a: #000000 */
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 footer img {
     vertical-align: middle; /* Выравнивание изображения по центру */
+}
+
+#welcome {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.popup {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    width: 300px;
+    background-color: #a03;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    transition: top 0.3s cubic-bezier(0.165, 0.54, 0.44, 1);
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
