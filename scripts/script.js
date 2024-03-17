@@ -36,6 +36,8 @@ sendButton.addEventListener("click", function (e) {
         }, 3000);
     } else {
         sendMessage(message, authcode == "" ? "null" : authcode)
+
+        getMessages()
     }
 
     messageInput.value = "";

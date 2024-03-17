@@ -110,3 +110,27 @@ footer img {
     padding: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+
+.message {
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-name {
+    font-weight: bold;
+    margin: 0px;
+}
+
+.message-text {
+    margin: 0px;
+}
+
+.message-date {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 0    ;
+}
